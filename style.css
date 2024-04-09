@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 12px Arial, Helvetica, sans-serif;
+    background-image: url("ltotbngnzzu.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+.clock{
+    border: 1px solid #606060;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #222222;
+}
+#Date{
+    font-size: 20px !important;
+    text-align: center;
+}
+.clock ul{
+ list-style: none;
+ display: flex;
+ font-size: clamp(50px, 10vw, 100px);
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
